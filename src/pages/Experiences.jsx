@@ -9,12 +9,34 @@ const ExperienceWrapper = styled.div`
 const Experiences = () => (
   <ExperienceWrapper>
     <h1>My Work Experiences</h1>
-    <h2>My Work Experience</h2>
-    <h3>My Work Experience</h3>
-    <h4>My Work Experience</h4>
-    <h5>My Work Experience</h5>
-    <h6>My Work Experience</h6>
-    <PrimaryCard></PrimaryCard>
+    <PrimaryCard
+      jobTitle="Software Engineer"
+      companyName="Bukku"
+      dateStart="Jan 2025"
+      dateEnd="Present"
+      techStack="React, Laravel, Python"
+    />
+    <PrimaryCard
+      jobTitle="Software Engineer"
+      companyName="KPMG Malaysia"
+      dateStart="October 2023"
+      dateEnd="October 2024"
+      techStack="Django, MySQL, JQuery, HTML/CSS"
+    />
+    <PrimaryCard
+      jobTitle="Software Engineer Apprentice (Internship)"
+      companyName="KPMG Malaysia"
+      dateStart="March 2023"
+      dateEnd="September 2023"
+      techStack="Django, MySQL, JQuery, HTML/CSS"
+    />
+    <PrimaryCard
+      jobTitle="UI/UX Designer (Freelance)"
+      companyName="MOI Systems"
+      dateStart="May 2023"
+      dateEnd="September 2023"
+      techStack="Django, MySQL, JQuery, HTML/CSS"
+    />
   </ExperienceWrapper>
 );
 

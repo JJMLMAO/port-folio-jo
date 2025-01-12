@@ -15,7 +15,10 @@ body{
         font-weight: 200;
     }
     h3 {
+        font-size: 1.5rem;
         font-weight: 200;
+        padding: 0;
+        margin: 0;
     }
     h4 {
         font-weight: 200;
